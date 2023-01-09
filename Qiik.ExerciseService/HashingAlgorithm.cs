@@ -42,7 +42,7 @@ namespace Qiik.ExerciseService
             return JsonConvert.SerializeObject(d);
         }
 
-        record HashingAlgorithmResult
+        public record HashingAlgorithmResult
         {
             public HashingAlgorithmResult(string algo, IHashResult value)
             {
